@@ -1,0 +1,34 @@
+{
+  "name": "roleplay-server-ucp",
+  "version": "1.0.0",
+  "description": "React-based web panel and associated plugin code for roleplay servers on Minecraft Java Edittion.",
+  "main": ".",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abellusc/roleplay-server-ucp.git"
+  },
+  "keywords": [
+    "minecraft",
+    "spigot",
+    "roleplay",
+    "react",
+    "nestjs",
+    "grpc"
+  ],
+  "author": "Alexandra Belluscio <alexandra.belluscio@icloud.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abellusc/roleplay-server-ucp/issues"
+  },
+  "homepage": "https://github.com/abellusc/roleplay-server-ucp#readme",
+  "devDependencies": {
+    "eslint": "^7.13.0",
+    "jest": "^26.6.3",
+    "lerna": "^3.22.1",
+    "ts-jest": "^26.4.4",
+    "typescript": "^4.0.5"
+  }
+}
