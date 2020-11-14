@@ -4,7 +4,10 @@
   "description": "React-based web panel and associated plugin code for roleplay servers on Minecraft Java Edittion.",
   "main": ".",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "prestart:dev": "npm run build:dev",
+    "start:dev": "lerna run start:dev --stream",
+    "build:dev": "lerna run build:dev --stream"
   },
   "repository": {
     "type": "git",
@@ -25,6 +28,7 @@
   },
   "homepage": "https://github.com/abellusc/roleplay-server-ucp#readme",
   "devDependencies": {
+    "@tsconfig/node12": "^1.0.7",
     "eslint": "^7.13.0",
     "jest": "^26.6.3",
     "lerna": "^3.22.1",
